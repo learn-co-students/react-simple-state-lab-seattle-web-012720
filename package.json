@@ -14,8 +14,8 @@
     "mocha-multi": "^1.1.3",
     "react": "^16.4.1",
     "react-dom": "^16.12.0",
-    "react-scripts": "1.1.4",
-    "webpack": "^3.11.0"
+    "react-scripts": "^3.4.1",
+    "webpack": "^4.42.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +34,17 @@
     "enzyme-adapter-react-16": "^1.1.1",
     "mocha": "^6.2.1",
     "sinon": "^7.5.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
